@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env'
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
-module.exports = {
+module.exports =
     
 SESSION_ID: process.env.SESSION_ID || "LAKA-MD=1sgzXAjJ#1g9aiDa-YNXaWfI_Gz_fNJYu5_ByV0Vt2T3GhyIVXOQ",
 PREFIX: process.env.PREFIX || '.' ,
